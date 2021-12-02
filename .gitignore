@@ -9,6 +9,7 @@
 *.log
 
 .mvn
+*mvnw*
 
 # BlueJ files
 *.ctxt
