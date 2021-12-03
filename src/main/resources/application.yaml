@@ -1,0 +1,12 @@
+fauna-db:
+    secret: fnAEZdEHgaAAQ-3gnut7o0XfiNLhewQzYJOVBzoM
+spring:
+  application:
+    name: taskmanager
+server:
+  port: 8080
+  
+  http2:
+    enabled: true
+
+
