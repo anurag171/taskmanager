@@ -1,12 +1,17 @@
 fauna-db:
     secret: fnAEZdEHgaAAQ-3gnut7o0XfiNLhewQzYJOVBzoM
+    endpoint: https://db.fauna.com
 spring:
   application:
     name: taskmanager
 server:
   port: 8080
-  
+
   http2:
     enabled: true
-
+logging:
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n'
+  level:
+    root: info
 

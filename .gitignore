@@ -35,3 +35,5 @@ hs_err_pid*
 HELP.md
 
 taskmanager.iml
+
+target/
